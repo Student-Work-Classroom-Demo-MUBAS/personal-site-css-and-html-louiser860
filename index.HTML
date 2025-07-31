@@ -5,16 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>LOUISER'S PERSONAL SITE</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 
   <!-- First full-screen section -->
   <section class="Hero-section">
     <nav class="main-nav">
-      <a href="#my work">my work</a>
-      <!-- <a href="index.html" class="home-button">Home</a> -->
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#work-section">my work</a>
+      <a href="#about-section">About</a>
+      <a href="#contact-section">Contact</a>
     </nav>
 
     <h1 class="h1-of-section">Welcome to my page</h1>
@@ -30,57 +34,53 @@
   <hr class="section-divider" />
 
   <!-- Second full-screen section -->
-  <section class="work-section">
-  <h1 class="h1-of-work-section">My Work</h1>
-  <h2 class="h2-of-work-section">Projects</h2>
+  <section id="work-section" class="work-section">
+    <h1 class="h1-of-work-section">My Work</h1>
+    <h2 class="h2-of-work-section">Projects</h2>
 
-  <ul class="project-list">
-    <li>self service fuel pump</li>
-    <li>Rab’s Khathi Khathi Promotion raffle draw system</li>
-    <li>final year project</li>
-    <li><a href="https://www.canva.com/design/DAGucZ5hj_k/rgjx0uji2bZoVR2AQZIVKA/edit?utm_content=DAGucZ5hj_k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener">Canva Design Project</a></li>
-  </ul>
-</section>
-
-
-
+    <ul class="project-list">
+      <li>self service fuel pump</li>
+      <li>Rab’s Khathi Khathi Promotion raffle draw system</li>
+      <li>final year project</li>
+      <li><a href="https://www.canva.com/design/DAGucZ5hj_k/rgjx0uji2bZoVR2AQZIVKA/edit?utm_content=DAGucZ5hj_k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener">Canva Design Project</a></li>
+    </ul>
+  </section>
 
   <!-- Divider line -->
   <hr class="section-divider" />
 
-  <section class="about-section">
-    <!-- <h1>About</h1> -->
-     <h1 class="h1-of-about-section">About</h1>
-    <p>I am louiser kanyumbu,</p>
-    <p>an upcoming  computer engineer studying at mubas.</p> 
-    <p>my goal is to become a full stack web developer.</p>  
-    
-
-
+  <section id="about-section" class="about-section">
+    <h1 class="h1-of-about-section">About</h1>
+    <p>I am Louiser Kanyumbu,</p>
+    <p>an upcoming computer engineer studying at MUBAS.</p>
+    <p>My goal is to become a full stack web developer.</p>
   </section>
-<!-- Divider line -->
+
+  <!-- Divider line -->
   <hr class="section-divider" />
 
- <section class="contact-me-section">
-  <h2 class="contact-heading">Contact Me</h2>
+  <section id="contact-section" class="contact-me-section">
+    <h2 class="contact-heading">Contact Me</h2>
 
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required />
-    <input type="email" placeholder="Your Email" required />
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit" class="submit-btn">Send Message</button>
-  </form>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
 
-  <div class="social-icons">
-    <a href="https://facebook.com/yourprofile">
-      <img src="images/facebook.jpg" alt="Facebook" />
-    </a>
-    <a href="https://wa.me/yourwhatsapplink">
-      <img src="images/whatsapp.jpg" alt="WhatsApp" />
-    </a>
-    <a href="tel:+265yournumber">
-      <img src="images/phone.jpg" alt="Phone" />
-    </a>
-  </div>
-</section>
+    <div class="social-icons">
+      <a href="https://facebook.com/yourprofile">
+        <img src="images/facebook.jpg" alt="Facebook" />
+      </a>
+      <a href="https://wa.me/yourwhatsapplink">
+        <img src="images/whatsapp.jpg" alt="WhatsApp" />
+      </a>
+      <a href="tel:+265yournumber">
+        <img src="images/phone.jpg" alt="Phone" />
+      </a>
+    </div>
+  </section>
 
+</body>
+</html>
