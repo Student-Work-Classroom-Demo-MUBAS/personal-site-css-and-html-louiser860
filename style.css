@@ -1,22 +1,39 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-image: url(images/page1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Center and style navigation  */
+/* .first-screen-section {
+  height: 100vh;
+  background-image: url(images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+} */
+
+.Hero-section {
+  height: 100vh;
+  background-image: url(images/personal\ website.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures top/middle/bottom layout */
+  padding: 40px 20px; /* Optional spacing */
+  box-sizing: border-box;
+}
+
 .main-nav {
-  /* text-align: center; */
   text-align: right;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
-/* styling the links */
 .main-nav a {
   margin: 0 40px;
   color: white;
@@ -25,46 +42,43 @@ body {
   font-size: 18px;
 }
 
-/* a hover style on the links */
 .main-nav a:hover {
-  color: #4CAF50; /* Optional highlight on hover */
+  color: #4CAF50;
 }
-
-
 
 .h1-of-section {
-    text-align: center;
-    color: white;
-    font-size: 2.5em;
-    height: 3.5%;
-    margin-top: 17px;
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
 }
 
+
+
+
 .h2-of-section {
-    text-align: center;
-    color: white;
-    font-size: 1.5em;
-    
-    
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-bottom: 300px;
 }
 
 .bottom-buttons {
-  position: fixed;
-  bottom: 30px;
-  left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Pushes buttons to ends */
-  /* padding: 0 7px;               */
-    /* Optional padding from edges */
-  z-index: 10;
+  justify-content: space-between;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  background-color: transparent;
 }
-
 
 .custom-btn {
   padding: 12px 24px;
   background-color: white;
-  color:#193764;
+  color: #193764;
   text-decoration: none;
   border-radius: 6px;
   font-size: 16px;
@@ -76,21 +90,88 @@ body {
   background-color: #009e8a;
 }
 
+.section-divider {
+  border: none;
+  height: 10px;
+  background-color: #ccc;
+  margin: 0;
+}
 
-/* .full-page {
-  height: 10vh;
+.work-section {
+  height: 100vh;
+  background-image: url(images/work-section.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 40px 60px;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+.h1-of-work-section {
+  color: white;
+  font-size: 2.5em;
+  margin: 0;
+  text-align: left; /* stays on the left */
+  align-self: flex-start;
+}
+
+.h2-of-work-section,
+.project-list {
+  color: white;
+  /* text-align: right; */
+  align-self: flex-end;     /* right-aligns both elements */
+  max-width: 50%;           /* prevents hugging the far edge */
+}
+
+.h2-of-work-section {
+  font-size: 2em;
+  margin-top: 100px;
+}
+
+.project-list {
+  margin: 10px 0 0 0;
+  font-size: 1.4em;
+  /* list-style-type: disc; */
+  /* padding-left: 40px; */
+}
+
+
+.about-section {
+  height: 100vh;
+  background-image: url(images/about-section.png);
+  /* background-color: #f0f0f0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: white;
-} */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
 
-/* This section’s background */
-#about {
-  background-image: url('images/background.png'); /* Replace with your actual file name */
+}
+
+.h1-of-about-section {
+  color: white;
+  font-size: 2.5em;
+  /* margin: 0; */
+  text-align: left; /* stays on the left */
+  align-self: flex-start;
+  
+
+}
+.contact-me-section {
+  height: 100vh;
+  background-image: url(images/about-section.png);
+  /* background-color: #f0f0f0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
 }
