@@ -69,16 +69,19 @@ body {
   white-space: pre-line;
 }
 
-/* Footer button stays at bottom */
-.bottom-buttons {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  background-color: transparent;
-  margin-top: auto;
+
+
+.bottom-left-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
+
 
 .custom-btn {
   padding: 12px 24px;
