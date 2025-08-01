@@ -88,3 +88,18 @@ README.md
 ## ✍️ Student Reflection (To be completed by you)
 
 Add your reflection here. Discuss your design choices, what you found difficult, and what you're most proud of (minimum 100 words).
+
+
+
+# README.md
+
+## Project Title
+Louiser Kanyumbu's Personal Resume Website
+
+## Reflection
+
+This resume website represents both my personal and technical growth as a computer engineering student at MUBAS. My goal was to design a clean, intuitive layout that aligns with modern web standards while reflecting my personality, skills, and passion for becoming a full stack developer. I chose a Canva-inspired design with bold headers, fixed navigation, and crisp sectioning to make information easy to access and visually appealing. 
+
+The most challenging part was fine-tuning the layout—ensuring perfect alignment, responsive sizing, and smooth flow across devices. I had to troubleshoot Git push errors, refine commit histories, and constantly rework styling to preserve my creative vision without compromising structure. I also found it difficult to translate design ideas into clean CSS that behaved consistently across screen sizes.
+
+What I'm most proud of is how the final product combines style with substance. It’s not just a technical resume it’s a statement of who I am, how I work, and where I’m going. Every section, from the fuel pump project to my Git practices, tells a story of persistence, collaboration, and thoughtful design.
